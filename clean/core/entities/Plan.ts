@@ -6,6 +6,8 @@ export class Plan {
                 public invited? : User[], 
                 public title? : string , 
                 public description? : string,
+                public covImage? : string,
+                
                 public date? : Date  ) {
         
     }

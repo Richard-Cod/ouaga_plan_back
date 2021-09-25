@@ -1,6 +1,9 @@
 import { Plan } from './Plan';
 export class User {
-    constructor(public username? : string ,
+    constructor(
+        public id? : string | number , 
+        public username? : string ,
+        public profilePic? : string ,
                  public plans : Plan[] = []) {
     }
 
